@@ -1,0 +1,4 @@
+{
+  "SitecoreBuildCommand": "msbuild .\\src\\Environment\\sitecore\\Mvp.Environment.Sitecore.csproj /p:Configuration=Release /restore /m /p:DeployOnBuild=true /p:PublishProfile=Local",
+  "OutputLocation": "/build/docker/deploy/sitecore"
+}
