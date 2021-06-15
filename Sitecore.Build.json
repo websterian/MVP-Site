@@ -1,7 +1,8 @@
 {
-  "SitecoreBuildCommand": "msbuild .\\src\\Environment\\sitecore\\Mvp.Environment.Sitecore.csproj /p:Configuration=Release /restore /m /p:DeployOnBuild=true /p:PublishProfile=Local",
-  "OutputLocation": "/build/docker/deploy/sitecore",
-  "UseDotnetRenderingHost": "true",
+  "BuildDotnetRenderingHost": true,
   "DotnetRenderingHostBuildConfig": "release",
-  "DotnetRenderingHostWorkingDirectory": ".\src\Project\MvpSite\rendering\"
+  "DotnetRenderingHostBuildWorkingDirectory": "./src/Project/MvpSite/rendering/",
+  "BuildSitecore": true,
+  "SitecoreBuildOutputDirectory": "/build/docker/deploy/sitecore",
+  "SitecoreBuildCommand": "msbuild ./src/Environment/sitecore/Mvp.Environment.Sitecore.csproj /p:Configuration=Release /restore /m /p:DeployOnBuild=true /p:PublishProfile=Local"
 }
