@@ -1,5 +1,5 @@
 {
-  "BuildDotnetRenderingHost": false,
+  "BuildDotnetRenderingHost": true,
   "DotnetRenderingHostBuildConfig": "release",
   "DotnetRenderingHostBuildWorkingDirectory": "./src/Project/MvpSite/rendering/",
   "BuildSitecore": true,
