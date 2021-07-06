@@ -3,7 +3,7 @@
   "DotnetRenderingHostBuildConfig": "release",
   "DotnetRenderingHostBuildWorkingDirectory": "./src/Project/MvpSite/rendering/",
   "BuildSitecore": true,
-  "CreateSitecoreItemPackage": false,
+  "CreateSitecoreItemPackage": true,
   "SitecoreItemsModulesList": "src/*/*/*.module.json",
   "SitecoreBuildOutputDirectory": "/build/docker/deploy/sitecore",
   "SitecoreBuildCommand": "msbuild ./src/Environment/sitecore/Mvp.Environment.Sitecore.csproj /p:Configuration=Release /restore /m /p:DeployOnBuild=true /p:PublishProfile=Local"
