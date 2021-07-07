@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mvp.Feature.Hero.Models
 {
-    //Added a change 2
+    //Added a change 3
     public class HeroBig : HeroBase
     {
     }
